@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contancts",
+  "info": {
+    "name": "contanct",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}
